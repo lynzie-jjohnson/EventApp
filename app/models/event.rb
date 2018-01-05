@@ -1,4 +1,3 @@
 class Event < ApplicationRecord
-    belongs_to :public_events
-    belongs_to :private_events
+    enum status: { public: 0, private: 1}
 end
