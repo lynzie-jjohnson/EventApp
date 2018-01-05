@@ -5,4 +5,3 @@ Rails.application.routes.draw do
   get 'create', to: 'events#create'
   get 'index', to: 'events#index'
 end
-
