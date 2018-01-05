@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 20180105195458) do
     t.string "location"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "event_type"
+    t.integer "event_type", default: 0
   end
 
   create_table "private_events", force: :cascade do |t|
