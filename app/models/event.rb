@@ -1,4 +1,3 @@
 class Event < ApplicationRecord
-    belongs_to :public_events
-    belongs_to :private_events
+    enum event_type: { public_event: 0, private_event: 1}
 end
