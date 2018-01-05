@@ -1,3 +1,3 @@
 class Event < ApplicationRecord
-    enum status: { public: 0, private: 1}
+    enum event_type: { public_event: 0, private_event: 1}
 end
